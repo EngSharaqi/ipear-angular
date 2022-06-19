@@ -1,0 +1,18 @@
+<div class='row cosmetics cosmetics-component'>
+    <div class='container'>
+        <div class='row'>
+            <h2 class="h">Cosmetics</h2>
+        </div>
+        <div class='row'>
+            <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12' *ngFor = "let product of products">
+                <div class="card">
+                    <div class="product-img cosemeticsI" style='background-image: url("{{product.img}}")'></div>
+                    <div>
+                        <h4 class="name">{{ product.name }}</h4>
+                        <p class="name">{{ product.details }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
