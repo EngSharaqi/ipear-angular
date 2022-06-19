@@ -1,14 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-sterile',
-  templateUrl: './sterile.component.html',
+  selector: 'app-cleaners',
+  templateUrl: './cleaners.component.html',
   styleUrls: ['../cosmetics/cosmetics.component.css']
 })
-export class SterileComponent {
+export class CleanersComponent {
 
   constructor() { }
-
   products = [
     {
       name: 'This is title no. 1',
