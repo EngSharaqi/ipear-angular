@@ -40,19 +40,19 @@
                     </div>
         
                     <div class='row'>
-                        <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12' *ngFor='let sterile of steriles'>
+                        <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12' *ngFor='let cleaner of cleaners'>
                             <div class="card">
                                 <!-- <img src='public/images/cleaners.jpg' alt='' /> -->
-                                <div class="product-img cleanersI" style="background-image: url('{{sterile.img}}')"></div>
+                                <div class="product-img cleanersI" style="background-image: url('{{cleaner.img}}')"></div>
                                 <div>
-                                    <h4 class="name">{{ sterile.name }}</h4>
-                                    <p class="name">{{ sterile.details }}</p>
+                                    <h4 class="name">{{ cleaner.name }}</h4>
+                                    <p class="name">{{ cleaner.details }}</p>
                                 </div>
                             </div>
                         </div>
         
                         <div class="row seemore">
-                            <a href='/sterile'>
+                            <a href='/cleaners'>
                                 <button type="button" class="btn btn-primary">See More</button>
                             </a>
                         </div>
@@ -75,7 +75,7 @@
                             </div>
             
                             <div class="row seemore">
-                                <a href='/cleaners'>
+                                <a href='/sterile'>
                                     <button type="button" class="btn btn-primary">See More</button>
                                 </a>
                             </div>
